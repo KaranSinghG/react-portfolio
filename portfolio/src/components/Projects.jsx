@@ -1,20 +1,23 @@
+import ProjectCard from "./ProjectCard";
+import './css/index.css';
+
 function Projects() {
     return (
         <>
             <h2>Projects</h2>
-
-            <div >
-                <h3>AEBAS</h3>
-                <p>Aadhaar Enabled Biometric Attendance System</p>
-                <p><b>Tech:</b> Python, Raspberry Pi, Fingerprint module</p>
-                <a href="#">GitHub</a>
-            </div>
-
-            <div>
-                <h3>Chatbot using Dialogflow</h3>
-                <p>Simple React app with Dialogflow integration</p>
-                <p><b>Tech:</b> React, Dialogflow</p>
-                <a href="#">GitHub</a>
+            <div className="projects-grid">
+                <ProjectCard
+                    title="AEBAS"
+                    description="Aadhaar Enabled Biometric Attendance System"
+                    technologies={["Python", "Raspberry Pi", "Fingerprint module"]}
+                    link="https://github.com/yourusername/AEBAS"
+                />
+                <ProjectCard
+                    title="Chatbot using Dialogflow"
+                    description="Simple React app with Dialogflow integration"
+                    technologies={["React", "Dialogflow"]}
+                    link="https://github.com/yourusername/chatbot-dialogflow"
+                />
             </div>
         </>
     );
