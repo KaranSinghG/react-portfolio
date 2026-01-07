@@ -1,16 +1,22 @@
+import './css/header.css';
+
 function Header() {
     return (
-        <>
-            <section>
+        <header>
+            <div className="header-content">
                 <h1>Karan Singh</h1>
-                <p>Software Engineer | Java • Spring Boot • React</p>
-
+                <p className="subtitle">Software Engineer | Java • Spring Boot • React</p>
+                <br />
                 <div className="social-links">
-                    <a href="https://github.com/" target="_blank">GitHub</a>{" | "}
-                    <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/"
+                        target="_blank"
+                        className="btn-outline"> GitHub </a>
+                    <a href="https://linkedin.com/"
+                        target="_blank"
+                        className="btn-outline">LinkedIn </a>
                 </div>
-            </section>
-        </>
+            </div>
+        </header>
     );
 }
 
