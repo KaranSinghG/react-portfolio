@@ -1,0 +1,50 @@
+/* Skills */
+.skills {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 80px;
+  background-color: #0f172a;
+}
+
+.skills h2 {
+  font-size: 28px;
+  color: #38bdf8;
+  margin-bottom: 32px;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+/* Individual skill group */
+.skill-group {
+  background-color: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.skill-group h3 {
+  font-size: 16px;
+  color: #e5e7eb;
+  margin-bottom: 14px;
+}
+
+/* Skill list */
+.skill-group ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skill-group li {
+  font-size: 14px;
+  color: #cbd5f5;
+  padding: 6px 0;
+  border-bottom: 1px solid #1e293b;
+}
+
+.skill-group li:last-child {
+  border-bottom: none;
+}
