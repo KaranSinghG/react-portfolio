@@ -1,4 +1,4 @@
-import './css/index.css';
+import './css/projects.css';
 
 function ProjectCard({ title, description, technologies, link }) {
     return (

@@ -36,6 +36,11 @@
   margin-bottom: 14px;
 }
 
+.skill-group:hover {
+  transform: translateY(-4px);
+  border-color: #38bdf8;
+}
+
 /* Skill list */
 .skill-group ul {
   list-style: none;

@@ -1,3 +1,22 @@
+.projects {
+    background-color: #0f172a;
+    max-width: 1100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0 auto;
+}
+
+.projects-container {
+  max-width: 1100px;
+  padding: 20px 20px;
+}
+
+.projects h2 {
+  font-size: 28px;
+  margin-bottom: 24px;
+  color: #38bdf8;
+}
+
 
 .projects-grid {
   display: grid;
