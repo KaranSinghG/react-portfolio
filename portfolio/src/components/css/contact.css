@@ -1,0 +1,20 @@
+.contact {
+    background-color: #0f172a;
+    max-width: 1100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 24px;
+    color: #38bdf8;
+}
+
+.contact-details {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #cbd5f5;
+    margin-bottom: 16px;
+}
